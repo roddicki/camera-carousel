@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Onsen UI</title>
+  <link rel='stylesheet' href='https://unpkg.com/onsenui/css/onsenui.css'>
+<link rel='stylesheet' href='https://unpkg.com/onsenui/css/onsen-css-components.css'>
+<style>
+.cover {
+  position: absolute; 
+  height: 100%; 
+  width: 100%; 
+  border: none; 
+  background-color: transparent;
+  z-index: 100;
+}
+
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<ons-page>
+  <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel">
+    <ons-carousel-item style="background-color: #000000;">
+      <div class="cover"></div>
+      <iframe src="launch-camera1.html" scrolling="no" style="position: absolute; height: 100%; width: 100%; border: none"></iframe>
+    </ons-carousel-item>
+
+    <ons-carousel-item style="background-color: #000000;">
+      <div class="cover"></div>
+      <iframe src="launch-camera2.html" scrolling="no" style="position: absolute; height: 100%; width: 100%; border: none"></iframe>
+    </ons-carousel-item>
+
+    <ons-carousel-item style="background-color: #000000;">
+      <div class="cover"></div>
+      <iframe src="launch-camera3.html" scrolling="no" style="position: absolute; height: 100%; width: 100%; border: none"></iframe>
+    </ons-carousel-item>
+
+    <ons-carousel-item style="background-color: #000000;">
+      <div class="cover"></div>
+      <iframe src="launch-camera4.html" scrolling="no" style="position: absolute; height: 100%; width: 100%; border: none"></iframe>
+    </ons-carousel-item>
+
+  </ons-carousel>
+</ons-page>
+<!-- partial -->
+  <script src='https://unpkg.com/onsenui/js/onsenui.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
